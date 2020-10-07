@@ -1,0 +1,108 @@
+#list-nav-tab > a.active {
+    color: #007bff;
+}
+.nav-link {
+    color: #4e6479;
+}
+.tab-pane {
+    /*border-bottom: 1px solid #dee2e67a;*/
+    border-right: 1px solid #dee2e67a;
+    border-left: 1px solid #dee2e67a;
+    padding: 22px;
+}
+
+.dataTables_wrapper > .btn-group {
+    position: absolute;
+}
+
+table {
+  overflow: hidden;
+}
+
+tbody > tr:hover {
+  background-color: #bac6d2 !important;
+}
+
+.modal-body .pagination {
+	opacity: 0;
+	font-size: xx-small;
+}
+
+.modal-body .dataTables_filter, .dataTables_info { display: none; }
+
+#custom_search_recc_cpu {
+	/*margin-top: 48px;*/
+	margin-bottom: 20px;
+}
+#table_recc_cpu {
+	font-size: small;
+}
+.recc_sync_button {
+	padding: 0px 4px 0px 4px;
+}
+
+/* Image Upload */
+.preview-images-zone {
+    width: 100%;
+    border: 1px solid #ddd;
+    min-height: 180px;
+    /* display: flex; */
+    padding: 5px 5px 0px 5px;
+    position: relative;
+    overflow:auto;
+}
+.preview-images-zone > .preview-image:first-child {
+    height: 185px;
+    width: 185px;
+    position: relative;
+    margin-right: 5px;
+}
+.preview-images-zone > .preview-image {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 5px;
+}
+.preview-images-zone > .preview-image > .image-zone {
+    width: 100%;
+    height: 100%;
+}
+.preview-images-zone > .preview-image > .image-zone > img {
+    width: 100%;
+    height: 100%;
+}
+.preview-images-zone > .preview-image > .tools-edit-image {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+.preview-images-zone > .preview-image > .image-cancel {
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+}
+.preview-image:hover > .image-zone {
+    cursor: move;
+    opacity: .5;
+}
+.preview-image:hover > .tools-edit-image,
+.preview-image:hover > .image-cancel {
+    display: block;
+}
+.ui-sortable-helper {
+    width: 90px !important;
+    height: 90px !important;
+}
