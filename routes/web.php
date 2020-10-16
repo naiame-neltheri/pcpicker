@@ -41,6 +41,7 @@ Route::group(['middleware' => ['verified']], function () {
 });
 
 
+Route::get('/api/services', 'ApiController@index')->name('api.index');
 
 
 // Twilio verification
